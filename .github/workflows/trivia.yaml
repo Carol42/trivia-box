@@ -22,4 +22,4 @@ jobs:
         run: python main.py
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 'ef9d16e87e0458fff84bf42c4e05894b'
+          GIST_ID: ${{ secrets.GIST_ID }}
